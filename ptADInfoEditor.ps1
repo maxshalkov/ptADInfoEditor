@@ -5,9 +5,8 @@ $Resources  = Join-Path -Path $PSScriptRoot -ChildPath "Resources.ps1"
 Data LocalizedData{ 
     # culture = "ru-RU" 
     ConvertFrom-StringData @' 
-        TestError        = __pt: Тестовая ошибка. 
-        FailedImportFunc = __pt: Ошибка загрузки ресурсного файла
-        IniNotFound      = __pt: Ini-файл не найден
+        FailedImportFunctionsFile = __pt: Ошибка загрузки ресурсного файла
+        IniFileNotFound           = __pt: Ini-файл не найден
 '@ 
 } 
 
